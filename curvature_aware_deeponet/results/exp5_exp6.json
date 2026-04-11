@@ -1,0 +1,118 @@
+{
+  "experiment5": {
+    "Example1 (9e, 8v)": {
+      "n_edges": 9,
+      "n_vertices": 8,
+      "n_inner": 6,
+      "flat_cont_mean": 0.07889504914944298,
+      "flat_cont_std": 0.008103454871685416,
+      "curv_cont_mean": 0.009893691998576285,
+      "curv_cont_std": 0.00199788585197753,
+      "flat_kirch_mean": 0.025360513158635828,
+      "curv_kirch_mean": 0.024461039451282585,
+      "improvement_pct": 87.45967952965397
+    },
+    "Example2 (5e, 6v)": {
+      "n_edges": 5,
+      "n_vertices": 6,
+      "n_inner": 2,
+      "flat_cont_mean": 0.0976187351027283,
+      "flat_cont_std": 0.005256735271417323,
+      "curv_cont_mean": 0.009291258215728616,
+      "curv_cont_std": 0.0025958791796192914,
+      "flat_kirch_mean": 0.040031243499406434,
+      "curv_kirch_mean": 0.03618750334349523,
+      "improvement_pct": 90.48209525973479
+    },
+    "Example3 (2e, 3v)": {
+      "n_edges": 2,
+      "n_vertices": 3,
+      "n_inner": 1,
+      "flat_cont_mean": 0.11544153208484853,
+      "flat_cont_std": 0.036472034930822156,
+      "curv_cont_mean": 0.0070747454189328705,
+      "curv_cont_std": 0.0035007775269804546,
+      "flat_kirch_mean": 0.001315235548967017,
+      "curv_kirch_mean": 0.0010811579799350165,
+      "improvement_pct": 93.87157698692535
+    },
+    "Example4 (14e, 8v)": {
+      "n_edges": 14,
+      "n_vertices": 8,
+      "n_inner": 2,
+      "flat_cont_mean": 0.07236384484335215,
+      "flat_cont_std": 0.021032480500055354,
+      "curv_cont_mean": 0.009200489819267946,
+      "curv_cont_std": 0.0028387189720455626,
+      "flat_kirch_mean": 0.0012098366604417752,
+      "curv_kirch_mean": 0.0010769391876683915,
+      "improvement_pct": 87.28579190452724
+    },
+    "Example5 (14e, 8v)": {
+      "n_edges": 14,
+      "n_vertices": 8,
+      "n_inner": 2,
+      "flat_cont_mean": 0.07236384484335215,
+      "flat_cont_std": 0.021032480500055354,
+      "curv_cont_mean": 0.009200489819267946,
+      "curv_cont_std": 0.0028387189720455626,
+      "flat_kirch_mean": 0.0012098366604417752,
+      "curv_kirch_mean": 0.0010769391876683915,
+      "improvement_pct": 87.28579190452724
+    }
+  },
+  "experiment6": {
+    "Example1": {
+      "0.01": {
+        "flat_init": 0.010045919795983663,
+        "curv_init": 0.013072801828666079,
+        "flat_vel": 0.011739970124913507,
+        "curv_vel": 0.006963278515131634,
+        "init_improv_pct": -30.130461860667605,
+        "vel_improv_pct": 40.687425597828415
+      },
+      "0.05": {
+        "flat_init": 0.05022959897991833,
+        "curv_init": 0.05096396476207666,
+        "flat_vel": 0.05869985062456753,
+        "curv_vel": 0.034816392575658175,
+        "init_improv_pct": -1.4620180074539615,
+        "vel_improv_pct": 40.687425597831165
+      },
+      "0.1": {
+        "flat_init": 0.10045919795983665,
+        "curv_init": 0.10086647756916392,
+        "flat_vel": 0.11739970124913503,
+        "curv_vel": 0.06963278515131632,
+        "init_improv_pct": -0.4054179384252013,
+        "vel_improv_pct": 40.68742559783152
+      }
+    },
+    "Example3": {
+      "0.01": {
+        "flat_init": 0.00996128365004061,
+        "curv_init": 0.013996176947025553,
+        "flat_vel": 0.011775639793203311,
+        "curv_vel": 0.005447284233270074,
+        "init_improv_pct": -40.50575647414768,
+        "vel_improv_pct": 53.74107624780875
+      },
+      "0.05": {
+        "flat_init": 0.04980641825020305,
+        "curv_init": 0.050989456330443356,
+        "flat_vel": 0.05887819896601654,
+        "curv_vel": 0.027236421166350364,
+        "init_improv_pct": -2.3752723480280737,
+        "vel_improv_pct": 53.7410762478124
+      },
+      "0.1": {
+        "flat_init": 0.0996128365004061,
+        "curv_init": 0.1003284700528928,
+        "flat_vel": 0.11775639793203303,
+        "curv_vel": 0.05447284233270073,
+        "init_improv_pct": -0.7184149931156492,
+        "vel_improv_pct": 53.74107624781283
+      }
+    }
+  }
+}
