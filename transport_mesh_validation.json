@@ -1,0 +1,107 @@
+{
+  "surface_validation": {
+    "sphere": {
+      "vertices": 576,
+      "edges": 1128,
+      "tangency_mean": 3.718909568839153e-17,
+      "tangency_max": 2.220446049250313e-16,
+      "norm_error_mean": 6.958578709308383e-17,
+      "norm_error_max": 4.440892098500626e-16,
+      "reverse_error_mean": 2.575691991932755e-16,
+      "reverse_error_max": 8.830679670797666e-15,
+      "sphere_closed_form_difference_mean": 1.1016770523961035e-16,
+      "sphere_closed_form_difference_max": 3.6821932062951477e-16
+    },
+    "torus": {
+      "vertices": 576,
+      "edges": 1152,
+      "tangency_mean": 3.4510783745810063e-17,
+      "tangency_max": 1.6653345369377348e-16,
+      "norm_error_mean": 4.7994016168691665e-17,
+      "norm_error_max": 3.3306690738754696e-16,
+      "reverse_error_mean": 1.8049780966429982e-16,
+      "reverse_error_max": 4.993612975386476e-15
+    },
+    "paraboloid": {
+      "vertices": 576,
+      "edges": 1104,
+      "tangency_mean": 4.3683134052439513e-17,
+      "tangency_max": 2.220446049250313e-16,
+      "norm_error_mean": 6.848386592117134e-17,
+      "norm_error_max": 3.3306690738754696e-16,
+      "reverse_error_mean": 2.3451337449956116e-16,
+      "reverse_error_max": 3.3624364894419686e-15
+    },
+    "wrinkle": {
+      "vertices": 576,
+      "edges": 1104,
+      "tangency_mean": 4.226375234963761e-17,
+      "tangency_max": 2.220446049250313e-16,
+      "norm_error_mean": 6.204779041609797e-17,
+      "norm_error_max": 4.440892098500626e-16,
+      "reverse_error_mean": 2.3939277667192223e-16,
+      "reverse_error_max": 3.583802674971042e-15
+    }
+  },
+  "scalability": [
+    {
+      "vertices": 256,
+      "edges": 512,
+      "transport_time_ms": 93.33669999614358,
+      "microseconds_per_edge": 182.29824217996793,
+      "peak_memory_mb": 0.07974720001220703,
+      "timing_repetitions": 5,
+      "checksum": 11.835305866293261
+    },
+    {
+      "vertices": 576,
+      "edges": 1152,
+      "transport_time_ms": 211.7757999803871,
+      "microseconds_per_edge": 183.83315970519712,
+      "peak_memory_mb": 0.16641807556152344,
+      "timing_repetitions": 5,
+      "checksum": -22.35920440242678
+    },
+    {
+      "vertices": 1024,
+      "edges": 2048,
+      "transport_time_ms": 377.66220001503825,
+      "microseconds_per_edge": 184.4053711010929,
+      "peak_memory_mb": 0.2905302047729492,
+      "timing_repetitions": 5,
+      "checksum": 61.88304609235539
+    },
+    {
+      "vertices": 2304,
+      "edges": 4608,
+      "transport_time_ms": 867.3651000135578,
+      "microseconds_per_edge": 188.23027344044223,
+      "peak_memory_mb": 0.6406002044677734,
+      "timing_repetitions": 5,
+      "checksum": 65.17821937654159
+    },
+    {
+      "vertices": 4096,
+      "edges": 8192,
+      "transport_time_ms": 1556.5017000189982,
+      "microseconds_per_edge": 190.00264892810037,
+      "peak_memory_mb": 1.1341276168823242,
+      "timing_repetitions": 5,
+      "checksum": -33.19114950131576
+    },
+    {
+      "vertices": 6400,
+      "edges": 12800,
+      "transport_time_ms": 2453.9240000303835,
+      "microseconds_per_edge": 191.7128125023737,
+      "peak_memory_mb": 1.770528793334961,
+      "timing_repetitions": 5,
+      "checksum": 58.97592080209418
+    }
+  ],
+  "fit": {
+    "slope_ms_per_edge": 0.19219689829423278,
+    "intercept_ms": -12.184997124340681,
+    "r_squared": 0.9999580388657793
+  }
+}

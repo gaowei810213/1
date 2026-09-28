@@ -1,0 +1,72 @@
+{
+  "100": {
+    "n_vertices": 85,
+    "n_edges": 272,
+    "n_inner": 83,
+    "build_time_s": 1.1546449661254883,
+    "transport_precompute_s": 0.0009944438934326172,
+    "coupling_step_ms": 16.00888967514038,
+    "peak_mem_mb": 29.739524841308594,
+    "ms_per_edge": 0.058856212040957284
+  },
+  "200": {
+    "n_vertices": 192,
+    "n_edges": 605,
+    "n_inner": 190,
+    "build_time_s": 0.2265481948852539,
+    "transport_precompute_s": 0.002001047134399414,
+    "coupling_step_ms": 46.9926118850708,
+    "peak_mem_mb": 1.591470718383789,
+    "ms_per_edge": 0.07767373865300958
+  },
+  "400": {
+    "n_vertices": 374,
+    "n_edges": 1156,
+    "n_inner": 372,
+    "build_time_s": 1.1454689502716064,
+    "transport_precompute_s": 0.008871793746948242,
+    "coupling_step_ms": 147.30122089385986,
+    "peak_mem_mb": 3.6195383071899414,
+    "ms_per_edge": 0.1274232014652767
+  },
+  "700": {
+    "n_vertices": 675,
+    "n_edges": 2070,
+    "n_inner": 673,
+    "build_time_s": 2.4540035724639893,
+    "transport_precompute_s": 0.01999187469482422,
+    "coupling_step_ms": 265.5603289604187,
+    "peak_mem_mb": 8.106131553649902,
+    "ms_per_edge": 0.12829001399054044
+  },
+  "1000": {
+    "n_vertices": 972,
+    "n_edges": 2971,
+    "n_inner": 970,
+    "build_time_s": 4.170097827911377,
+    "transport_precompute_s": 0.019926786422729492,
+    "coupling_step_ms": 383.43127965927124,
+    "peak_mem_mb": 14.098742485046387,
+    "ms_per_edge": 0.12905798709500882
+  },
+  "1500": {
+    "n_vertices": 1474,
+    "n_edges": 4508,
+    "n_inner": 1472,
+    "build_time_s": 8.44547724723816,
+    "transport_precompute_s": 0.036998748779296875,
+    "coupling_step_ms": 616.9244408607483,
+    "peak_mem_mb": 27.120469093322754,
+    "ms_per_edge": 0.13685102947221567
+  },
+  "2000": {
+    "n_vertices": 1925,
+    "n_edges": 5852,
+    "n_inner": 1923,
+    "build_time_s": 12.376413345336914,
+    "transport_precompute_s": 0.04303932189941406,
+    "coupling_step_ms": 765.5517220497131,
+    "peak_mem_mb": 42.12377738952637,
+    "ms_per_edge": 0.13081881784854976
+  }
+}
