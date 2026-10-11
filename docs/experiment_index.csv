@@ -1,0 +1,13 @@
+paper_experiment,script,data_file,json_section,interpretation
+1,curvature_aware_deeponet/experiments/run_proof_of_concept.py,curvature_aware_deeponet/results/poc_results.json,summary; runs,Controlled endpoint calibration
+2,curvature_aware_deeponet/experiments/run_remaining_v2.py,curvature_aware_deeponet/results/remaining_v2.json,experiment2,Calibration strength ablation
+3,curvature_aware_deeponet/experiments/run_remaining_v2.py,curvature_aware_deeponet/results/remaining_v2.json,experiment3,Prescribed bias amplitude sweep
+4,curvature_aware_deeponet/experiments/run_remaining_v2.py,curvature_aware_deeponet/results/remaining_v2.json,experiment4,Benchmark topology timing
+4b,run_largescale_scalability.py,results/largescale_scalability.json,<root>,Large-scale controlled coupling
+4c,run_epsilon_ablation.py,results/epsilon_ablation.json,<root>,Prescribed curvature threshold sweep
+5,curvature_aware_deeponet/experiments/run_exp5_exp6.py,curvature_aware_deeponet/results/exp5_exp6.json,experiment5,Controlled topology calibration
+6,curvature_aware_deeponet/experiments/run_comparison.py,curvature_aware_deeponet/results/comparison.json,partA,Controlled algebraic baselines
+7,curvature_aware_deeponet/experiments/run_comparison.py,curvature_aware_deeponet/results/comparison.json,partB,Sphere tangent transport comparison
+7b,run_transport_mesh_validation.py,results/transport_mesh_validation.json,surface_validation,Surface tangent transport consistency
+7c,run_transport_mesh_validation.py,results/transport_mesh_validation.json,scalability; fit,Transport kernel scaling
+8,run_inverse_poc.py,results/inverse_poc.json,<root>,Controlled FVM velocity recovery

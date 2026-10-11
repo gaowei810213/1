@@ -1,0 +1,21 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors, OS files and local credentials
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# Local scratch work
+tmp/
+scratch/
+
+# Keep experiment JSON, CSV and archived data tracked.

@@ -1,0 +1,168 @@
+{
+  "experiment2_ablation": {
+    "Base (flat)": {
+      "strength": 0.0,
+      "cont_L2_mean": 0.0,
+      "cont_L2_std": 0.0,
+      "kirch_mean": 0.0008054158296022657,
+      "kirch_std": 0.0008244821770108894
+    },
+    "+CurvSensor(15%)": {
+      "strength": 0.15,
+      "cont_L2_mean": 0.0,
+      "cont_L2_std": 0.0,
+      "kirch_mean": 0.0008315724759414798,
+      "kirch_std": 0.0008512580211456002
+    },
+    "+PT(55%)": {
+      "strength": 0.55,
+      "cont_L2_mean": 0.0,
+      "cont_L2_std": 0.0,
+      "kirch_mean": 0.0009013235328460447,
+      "kirch_std": 0.0009226602721714908
+    },
+    "+PT+Sensor(70%)": {
+      "strength": 0.7,
+      "cont_L2_mean": 0.0,
+      "cont_L2_std": 0.0,
+      "kirch_mean": 0.0009274801791852541,
+      "kirch_std": 0.0009494361163062063
+    },
+    "+PT+Tensor(85%)": {
+      "strength": 0.85,
+      "cont_L2_mean": 0.0,
+      "cont_L2_std": 0.0,
+      "kirch_mean": 0.0009536368255244773,
+      "kirch_std": 0.0009762119604409027
+    },
+    "Full (Ours, 100%)": {
+      "strength": 1.0,
+      "cont_L2_mean": 0.0,
+      "cont_L2_std": 0.0,
+      "kirch_mean": 0.0009797934718636923,
+      "kirch_std": 0.0010029878045756298
+    }
+  },
+  "experiment3_sensitivity": {
+    "0.0": {
+      "K_scale": 0.0,
+      "flat_L2_mean": 0.0,
+      "flat_L2_std": 0.0,
+      "curv_L2_mean": 0.0,
+      "curv_L2_std": 0.0,
+      "improvement_pct": 0.0
+    },
+    "0.1": {
+      "K_scale": 0.1,
+      "flat_L2_mean": 0.0,
+      "flat_L2_std": 0.0,
+      "curv_L2_mean": 0.0,
+      "curv_L2_std": 0.0,
+      "improvement_pct": 0.0
+    },
+    "0.5": {
+      "K_scale": 0.5,
+      "flat_L2_mean": 0.0,
+      "flat_L2_std": 0.0,
+      "curv_L2_mean": 0.0,
+      "curv_L2_std": 0.0,
+      "improvement_pct": 0.0
+    },
+    "1.0": {
+      "K_scale": 1.0,
+      "flat_L2_mean": 0.0,
+      "flat_L2_std": 0.0,
+      "curv_L2_mean": 0.0,
+      "curv_L2_std": 0.0,
+      "improvement_pct": 0.0
+    },
+    "2.0": {
+      "K_scale": 2.0,
+      "flat_L2_mean": 0.0,
+      "flat_L2_std": 0.0,
+      "curv_L2_mean": 0.0,
+      "curv_L2_std": 0.0,
+      "improvement_pct": 0.0
+    },
+    "5.0": {
+      "K_scale": 5.0,
+      "flat_L2_mean": 0.0,
+      "flat_L2_std": 0.0,
+      "curv_L2_mean": 0.0,
+      "curv_L2_std": 0.0,
+      "improvement_pct": 0.0
+    }
+  },
+  "experiment4_scalability": {
+    "Example0 (3 edges)": {
+      "n_edges": 1,
+      "n_vertices": 2,
+      "n_inner_vertices": 0,
+      "fvm_time": 0.22199702262878418,
+      "curvature_time": 0.0,
+      "coupling_eval_time": 0.0
+    },
+    "Example1 (5 edges)": {
+      "n_edges": 9,
+      "n_vertices": 8,
+      "n_inner_vertices": 6,
+      "fvm_time": 0.5621140003204346,
+      "curvature_time": 0.0,
+      "coupling_eval_time": 0.000141904354095459
+    },
+    "Example2 (7 edges)": {
+      "n_edges": 5,
+      "n_vertices": 6,
+      "n_inner_vertices": 2,
+      "fvm_time": 0.8049798011779785,
+      "curvature_time": 0.0,
+      "coupling_eval_time": 6.834983825683594e-05
+    },
+    "Example3 (7 edges, chain)": {
+      "n_edges": 2,
+      "n_vertices": 3,
+      "n_inner_vertices": 1,
+      "fvm_time": 0.260850191116333,
+      "curvature_time": 0.0,
+      "coupling_eval_time": 0.0
+    }
+  },
+  "experiment5_topologies": {
+    "Example0 (3 edges)": {
+      "n_edges": 1,
+      "n_vertices": 2,
+      "flat_L2_mean": 0.0,
+      "flat_L2_std": 0.0,
+      "curv_L2_mean": 0.0,
+      "curv_L2_std": 0.0,
+      "improvement_pct": 0.0
+    },
+    "Example1 (5 edges)": {
+      "n_edges": 9,
+      "n_vertices": 8,
+      "flat_L2_mean": 1.1256427888560615e-17,
+      "flat_L2_std": 1.1168423570056366e-17,
+      "curv_L2_mean": 6.476300976980081e-18,
+      "curv_L2_std": 8.946121438930495e-18,
+      "improvement_pct": 0.4726918692186843
+    },
+    "Example2 (7 edges)": {
+      "n_edges": 5,
+      "n_vertices": 6,
+      "flat_L2_mean": 2.1279274638648835e-17,
+      "flat_L2_std": 2.4626285555599656e-17,
+      "curv_L2_mean": 2.7755575615628915e-18,
+      "curv_L2_std": 4.9391408796373674e-18,
+      "improvement_pct": 1.8118175445823053
+    },
+    "Example3 (7 edges, chain)": {
+      "n_edges": 2,
+      "n_vertices": 3,
+      "flat_L2_mean": 0.0,
+      "flat_L2_std": 0.0,
+      "curv_L2_mean": 0.0,
+      "curv_L2_std": 0.0,
+      "improvement_pct": 0.0
+    }
+  }
+}

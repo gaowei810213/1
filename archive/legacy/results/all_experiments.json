@@ -1,0 +1,292 @@
+{
+  "experiment1": {
+    "sphere": {
+      "n_edges": 75,
+      "n_vertices": 25,
+      "K_min": -2.086397596358094,
+      "K_max": 2.665630224426836,
+      "K_mean": 0.6956506577493698,
+      "flat_continuity_mse": 0.0053168213637738776,
+      "curv_continuity_mse": 0.005932602417826027,
+      "flat_kirchhoff_mse": 0.0,
+      "curv_kirchhoff_mse": 0.0,
+      "continuity_improvement": -11.581751800947329
+    },
+    "torus": {
+      "n_edges": 88,
+      "n_vertices": 24,
+      "K_min": -0.7934259895225259,
+      "K_max": 0.7630680154848242,
+      "K_mean": 0.5322772439602671,
+      "flat_continuity_mse": 0.00020586667400024285,
+      "curv_continuity_mse": 0.021902386883785624,
+      "flat_kirchhoff_mse": 0.0,
+      "curv_kirchhoff_mse": 0.0,
+      "continuity_improvement": -10539.112420718662
+    },
+    "elliptic": {
+      "n_edges": 77,
+      "n_vertices": 25,
+      "K_min": -1.1899771162219528,
+      "K_max": 1.1970245267858213,
+      "K_mean": 0.529116766708905,
+      "flat_continuity_mse": 0.00494721583574991,
+      "curv_continuity_mse": 0.013194419290173771,
+      "flat_kirchhoff_mse": 0.0,
+      "curv_kirchhoff_mse": 0.0,
+      "continuity_improvement": -166.70393466211212
+    },
+    "hyperbolic": {
+      "n_edges": 75,
+      "n_vertices": 25,
+      "K_min": -1.113470539771799,
+      "K_max": 0.7326101512393826,
+      "K_mean": 0.4965876422599158,
+      "flat_continuity_mse": 0.007127266924434565,
+      "curv_continuity_mse": 0.01828560862783222,
+      "flat_kirchhoff_mse": 0.0,
+      "curv_kirchhoff_mse": 0.0,
+      "continuity_improvement": -156.5584932022358
+    },
+    "wrinkle": {
+      "n_edges": 74,
+      "n_vertices": 25,
+      "K_min": -2.279943714884892,
+      "K_max": 1.5403391194290839,
+      "K_mean": 0.7587233876401147,
+      "flat_continuity_mse": 0.004414809507222677,
+      "curv_continuity_mse": 0.02468679715152736,
+      "flat_kirchhoff_mse": 0.0,
+      "curv_kirchhoff_mse": 0.0,
+      "continuity_improvement": -459.1814802232101
+    }
+  },
+  "experiment2": {
+    "Base (flat)": {
+      "config": {
+        "curv_sensor": false,
+        "parallel_transport": false,
+        "attention": false
+      },
+      "mean_error": 0.01739948813746495,
+      "std_error": 0.007726701899475461
+    },
+    "+CurvSensor": {
+      "config": {
+        "curv_sensor": true,
+        "parallel_transport": false,
+        "attention": false
+      },
+      "mean_error": 0.015966074779542275,
+      "std_error": 0.00704553738791751
+    },
+    "+PT": {
+      "config": {
+        "curv_sensor": false,
+        "parallel_transport": true,
+        "attention": false
+      },
+      "mean_error": 0.03170842573729364,
+      "std_error": 0.02173874921121939
+    },
+    "+PT+CurvSensor": {
+      "config": {
+        "curv_sensor": true,
+        "parallel_transport": true,
+        "attention": false
+      },
+      "mean_error": 0.0286160180132236,
+      "std_error": 0.018591535563209954
+    },
+    "+PT+Tensor": {
+      "config": {
+        "curv_sensor": false,
+        "parallel_transport": true,
+        "attention": true
+      },
+      "mean_error": 0.02684947176486737,
+      "std_error": 0.017617671631761644
+    },
+    "Full (Ours)": {
+      "config": {
+        "curv_sensor": true,
+        "parallel_transport": true,
+        "attention": true
+      },
+      "mean_error": 0.02628320399387815,
+      "std_error": 0.016190406695942263
+    }
+  },
+  "experiment3": {
+    "0.2": {
+      "c": 0.2,
+      "max_K": 1.3545679734972305,
+      "mean_K": 0.30257036143325544,
+      "flat_error": 0.01503418351438043,
+      "curv_error": 0.01519295679863869,
+      "n_edges": 51
+    },
+    "0.5": {
+      "c": 0.5,
+      "max_K": 1.3560870009622588,
+      "mean_K": 0.5473862222530937,
+      "flat_error": 0.015879173728936755,
+      "curv_error": 0.019691720530687337,
+      "n_edges": 51
+    },
+    "1.0": {
+      "c": 1.0,
+      "max_K": 1.2549843472270215,
+      "mean_K": 0.4326106765335288,
+      "flat_error": 0.0160883805706715,
+      "curv_error": 0.017005105862475826,
+      "n_edges": 49
+    },
+    "2.0": {
+      "c": 2.0,
+      "max_K": 0.8261795694746491,
+      "mean_K": 0.3219281525374471,
+      "flat_error": 0.015261289686081814,
+      "curv_error": 0.020198502302570392,
+      "n_edges": 48
+    },
+    "5.0": {
+      "c": 5.0,
+      "max_K": 1.1329012376159369,
+      "mean_K": 0.36352701383096253,
+      "flat_error": 0.015261289686081814,
+      "curv_error": 0.02279959549096939,
+      "n_edges": 48
+    },
+    "10.0": {
+      "c": 10.0,
+      "max_K": 1.1892768940013552,
+      "mean_K": 0.36015841087636985,
+      "flat_error": 0.015261289686081814,
+      "curv_error": 0.023007773778617017,
+      "n_edges": 48
+    }
+  },
+  "experiment4": {
+    "9": {
+      "n_vertices": 15,
+      "n_edges": 55,
+      "build_time": 0.003998994827270508,
+      "transport_precompute_time": 0.0,
+      "coupling_step_time": 9.000539779663086e-05
+    },
+    "16": {
+      "n_vertices": 18,
+      "n_edges": 66,
+      "build_time": 0.005490541458129883,
+      "transport_precompute_time": 0.0,
+      "coupling_step_time": 0.00011581897735595702
+    },
+    "25": {
+      "n_vertices": 24,
+      "n_edges": 88,
+      "build_time": 0.005991935729980469,
+      "transport_precompute_time": 0.0,
+      "coupling_step_time": 0.00021001100540161133
+    },
+    "36": {
+      "n_vertices": 30,
+      "n_edges": 100,
+      "build_time": 0.00699925422668457,
+      "transport_precompute_time": 0.0,
+      "coupling_step_time": 0.00043934106826782227
+    },
+    "49": {
+      "n_vertices": 48,
+      "n_edges": 155,
+      "build_time": 0.009685754776000977,
+      "transport_precompute_time": 0.0017430782318115234,
+      "coupling_step_time": 0.001027536392211914
+    },
+    "64": {
+      "n_vertices": 52,
+      "n_edges": 164,
+      "build_time": 0.012077093124389648,
+      "transport_precompute_time": 0.0,
+      "coupling_step_time": 0.0011953377723693847
+    },
+    "100": {
+      "n_vertices": 85,
+      "n_edges": 272,
+      "build_time": 0.019918441772460938,
+      "transport_precompute_time": 0.0,
+      "coupling_step_time": 0.003282797336578369
+    }
+  },
+  "experiment5": {
+    "norm_preservation_mean": 0.011240934565624961,
+    "norm_preservation_max": 0.08162087411037544,
+    "tangency_mean": 0.1200326730062566,
+    "tangency_max": 0.3631537811956445,
+    "euclidean_vs_transport_mean": 0.12089759224420675,
+    "euclidean_vs_transport_max": 0.3708599800545904,
+    "n_tests": 1000
+  },
+  "experiment6": {
+    "sphere": {
+      "0.01": {
+        "flat_vel_error": 0.013936897260367636,
+        "curv_vel_error": 0.013030434245035733,
+        "flat_init_error": 0.008265661352352568,
+        "curv_init_error": 0.007728058457447663
+      },
+      "0.05": {
+        "flat_vel_error": 0.06968448630183824,
+        "curv_vel_error": 0.06515217122517873,
+        "flat_init_error": 0.04132830676176284,
+        "curv_init_error": 0.03864029228723832
+      },
+      "0.1": {
+        "flat_vel_error": 0.13936897260367653,
+        "curv_vel_error": 0.13030434245035752,
+        "flat_init_error": 0.08265661352352568,
+        "curv_init_error": 0.07728058457447665
+      }
+    },
+    "torus": {
+      "0.01": {
+        "flat_vel_error": 0.013936897260367636,
+        "curv_vel_error": 0.013232558294417999,
+        "flat_init_error": 0.008265661352352568,
+        "curv_init_error": 0.007847933700275988
+      },
+      "0.05": {
+        "flat_vel_error": 0.06968448630183824,
+        "curv_vel_error": 0.06616279147209005,
+        "flat_init_error": 0.04132830676176284,
+        "curv_init_error": 0.03923966850137994
+      },
+      "0.1": {
+        "flat_vel_error": 0.13936897260367653,
+        "curv_vel_error": 0.13232558294418015,
+        "flat_init_error": 0.08265661352352568,
+        "curv_init_error": 0.07847933700275989
+      }
+    },
+    "wrinkle": {
+      "0.01": {
+        "flat_vel_error": 0.013936897260367636,
+        "curv_vel_error": 0.012954043670626095,
+        "flat_init_error": 0.008265661352352568,
+        "curv_init_error": 0.007682752920154414
+      },
+      "0.05": {
+        "flat_vel_error": 0.06968448630183824,
+        "curv_vel_error": 0.06477021835313053,
+        "flat_init_error": 0.04132830676176284,
+        "curv_init_error": 0.038413764600772074
+      },
+      "0.1": {
+        "flat_vel_error": 0.13936897260367653,
+        "curv_vel_error": 0.12954043670626111,
+        "flat_init_error": 0.08265661352352568,
+        "curv_init_error": 0.07682752920154415
+      }
+    }
+  }
+}

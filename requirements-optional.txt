@@ -1,0 +1,6 @@
+# Optional JAX architecture/prototype dependencies; not verified during packaging.
+-r requirements.txt
+jax
+jaxlib
+optax
+tqdm

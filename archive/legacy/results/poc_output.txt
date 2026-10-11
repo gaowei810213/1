@@ -1,0 +1,20 @@
+﻿python.exe : C:\Users\19850\.conda\envs\curvfl\Lib\site-packages\jax\_src\dtype
+s.py:1081: UserWarning: Explicitly requested dtype float64 requested in dtype i
+s not available, and will be truncated to dtype float32. To enable more dtypes,
+ set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell enviro
+nment variable. See https://github.com/jax-ml/jax#current-gotchas for more.
+所在位置 行:1 字符: 1
++ & "C:\Users\19850\.conda\envs\curvfl\python.exe" curvature_aware_deep ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\19850\...tchas for more. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  dtype, weak_type = lattice_result_type(*(default_float_dtype() if arg is None
+ else arg for arg in args))
+C:\Users\19850\.conda\envs\curvfl\Lib\site-packages\jax\_src\numpy\util.py:93: 
+UserWarning: Explicitly requested dtype float64 requested in dtype is not avail
+able, and will be truncated to dtype float32. To enable more dtypes, set the ja
+x_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment varia
+ble. See https://github.com/jax-ml/jax#current-gotchas for more.
+  to_dtype, weak_type = dtypes.lattice_result_type(*args)
